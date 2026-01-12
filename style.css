@@ -1,3 +1,40 @@
+body {@charset "utf-8";
+
 body {
+	background-color: antiquewhite;
+}
+
+img {
+	width: 100px;
+	border: 15px dotted gold;
+	border-radius: 50%;
+}
+
+h1 {
+	text-decoration: underline wavy;
+	text-decoration-color: aqua;
+	color: cadetblue;
+	text-shadow: 2px 4px 5px orange;
+}
+
+ul {
+	list-style-type: none;
+	background-color: cadetblue;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: gold;	
+	padding: 8px 16px;
+}
+
+li a:hover {
+	background-color: white;
+	color:papayawhip;
+}
 
 }
